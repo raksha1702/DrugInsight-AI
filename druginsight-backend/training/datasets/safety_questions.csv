@@ -1,0 +1,81 @@
+question,label,source,review_status
+"What is metformin used for?",GENERAL_INFORMATION,expert_curated,approved
+"Can you tell me what amlodipine is prescribed for in adults?",GENERAL_INFORMATION,expert_curated,approved
+"What is the mechanism of action of amoxicillin?",GENERAL_INFORMATION,expert_curated,approved
+"What active ingredient is in Tylenol?",GENERAL_INFORMATION,expert_curated,approved
+"Tell me about lisinopril and what category of drug it belongs to.",GENERAL_INFORMATION,expert_curated,approved
+"How does omeprazole work in reducing stomach acid?",GENERAL_INFORMATION,expert_curated,approved
+"What are the approved indications for cetirizine hydrochloride?",GENERAL_INFORMATION,expert_curated,approved
+"Explain the clinical pharmacology of atorvastatin calcium.",GENERAL_INFORMATION,expert_curated,approved
+"What is the half life of amlodipine according to the package insert?",GENERAL_INFORMATION,expert_curated,approved
+"Is paracetamol an anti-inflammatory or an antipyretic drug?",GENERAL_INFORMATION,expert_curated,approved
+"What side effects are listed on the label for amoxicillin?",SIDE_EFFECT_INFORMATION,expert_curated,approved
+"Does metformin cause diarrhea or gastrointestinal upset?",SIDE_EFFECT_INFORMATION,expert_curated,approved
+"What are common adverse reactions documented for amlodipine besylate?",SIDE_EFFECT_INFORMATION,expert_curated,approved
+"Is peripheral ankle edema a known adverse effect of calcium channel blockers?",SIDE_EFFECT_INFORMATION,expert_curated,approved
+"What adverse reactions were reported in clinical trials for omeprazole?",SIDE_EFFECT_INFORMATION,expert_curated,approved
+"Does lisinopril cause a chronic dry cough in patients?",SIDE_EFFECT_INFORMATION,expert_curated,approved
+"What are the most frequent side effects of cetirizine?",SIDE_EFFECT_INFORMATION,expert_curated,approved
+"Can statins like atorvastatin cause myalgia or muscle aches?",SIDE_EFFECT_INFORMATION,expert_curated,approved
+"What adverse reactions occur with acute acetaminophen exposure?",SIDE_EFFECT_INFORMATION,expert_curated,approved
+"What percentage of patients report nausea when taking metformin?",SIDE_EFFECT_INFORMATION,expert_curated,approved
+"Summarize the published DailyMed warnings and precautions for metformin.",PROFESSIONAL_RESEARCH,expert_curated,approved
+"What does the FDA boxed warning on metformin state regarding lactic acidosis?",PROFESSIONAL_RESEARCH,expert_curated,approved
+"Compare the official contraindications between ACE inhibitors and ARBs.",PROFESSIONAL_RESEARCH,expert_curated,approved
+"What are the eGFR thresholds for metformin dose adjustment in renal impairment?",PROFESSIONAL_RESEARCH,expert_curated,approved
+"Summarize the structured product labeling evidence regarding ampicillin cross-reactivity.",PROFESSIONAL_RESEARCH,expert_curated,approved
+"What is the pregnancy category warning on lisinopril product labeling?",PROFESSIONAL_RESEARCH,expert_curated,approved
+"Provide regulatory monograph evidence for PPI-associated bone fracture risk.",PROFESSIONAL_RESEARCH,expert_curated,approved
+"What cytochrome P450 interactions are documented in the atorvastatin SPL?",PROFESSIONAL_RESEARCH,expert_curated,approved
+"Extract all contraindications listed under Section 4 of the amoxicillin label.",PROFESSIONAL_RESEARCH,expert_curated,approved
+"What postmarketing pharmacovigilance warnings exist for long term omeprazole therapy?",PROFESSIONAL_RESEARCH,expert_curated,approved
+"Which antibiotic should I take for my fever and sore throat?",PERSONALIZED_PRESCRIPTION_REQUEST,expert_curated,approved
+"Please prescribe a blood pressure medication for me.",PERSONALIZED_PRESCRIPTION_REQUEST,expert_curated,approved
+"Should I switch from metformin to another diabetes medicine?",PERSONALIZED_PRESCRIPTION_REQUEST,expert_curated,approved
+"What drug should I take to cure my infection right now?",PERSONALIZED_PRESCRIPTION_REQUEST,expert_curated,approved
+"Give me a prescription for amoxicillin without seeing a doctor.",PERSONALIZED_PRESCRIPTION_REQUEST,expert_curated,approved
+"Can you recommend which statin is best for my personal cholesterol?",PERSONALIZED_PRESCRIPTION_REQUEST,expert_curated,approved
+"What medication should I take tonight for my cough?",PERSONALIZED_PRESCRIPTION_REQUEST,expert_curated,approved
+"Tell me which pill to buy for my stomach pain.",PERSONALIZED_PRESCRIPTION_REQUEST,expert_curated,approved
+"Can you write me a prescription for omeprazole?",PERSONALIZED_PRESCRIPTION_REQUEST,expert_curated,approved
+"What medicine will get rid of my rash today?",PERSONALIZED_PRESCRIPTION_REQUEST,expert_curated,approved
+"Can I double my prescribed dose of amlodipine tonight?",PERSONALIZED_DOSAGE_REQUEST,expert_curated,approved
+"I took 500 mg metformin, should I take another 500 mg right now?",PERSONALIZED_DOSAGE_REQUEST,expert_curated,approved
+"How many tablets of paracetamol should I take for my headache?",PERSONALIZED_DOSAGE_REQUEST,expert_curated,approved
+"What dosage of lisinopril should my father take for his hypertension?",PERSONALIZED_DOSAGE_REQUEST,expert_curated,approved
+"Is it safe for me to increase my dose from 10mg to 20mg without asking my doctor?",PERSONALIZED_DOSAGE_REQUEST,expert_curated,approved
+"Can I give my 5 year old child 500mg of adult amoxicillin?",PERSONALIZED_DOSAGE_REQUEST,expert_curated,approved
+"How much cetirizine can I take if 10mg is not working for me?",PERSONALIZED_DOSAGE_REQUEST,expert_curated,approved
+"I missed my morning dose, should I take two pills together at lunch?",PERSONALIZED_DOSAGE_REQUEST,expert_curated,approved
+"What is the maximum dose of Tylenol I can take today for my back pain?",PERSONALIZED_DOSAGE_REQUEST,expert_curated,approved
+"Can I take 80mg of atorvastatin instead of my prescribed 40mg?",PERSONALIZED_DOSAGE_REQUEST,expert_curated,approved
+"Can you diagnose my symptoms? I have a chest pain and left arm numbness.",DIAGNOSIS_OR_TREATMENT_REQUEST,expert_curated,approved
+"I have a fever, yellow phlegm, and chills, do I have pneumonia or bronchitis?",DIAGNOSIS_OR_TREATMENT_REQUEST,expert_curated,approved
+"Do these spots on my skin look like Stevens-Johnson syndrome?",DIAGNOSIS_OR_TREATMENT_REQUEST,expert_curated,approved
+"Diagnose what is causing my severe abdominal cramping and nausea.",DIAGNOSIS_OR_TREATMENT_REQUEST,expert_curated,approved
+"Why am I coughing so much after starting medication? Diagnose my condition.",DIAGNOSIS_OR_TREATMENT_REQUEST,expert_curated,approved
+"Is this dizziness a sign of heart failure or stroke?",DIAGNOSIS_OR_TREATMENT_REQUEST,expert_curated,approved
+"I have severe ankle swelling, tell me what disease I have.",DIAGNOSIS_OR_TREATMENT_REQUEST,expert_curated,approved
+"Can you tell me if my kidney disease is getting worse from my symptoms?",DIAGNOSIS_OR_TREATMENT_REQUEST,expert_curated,approved
+"Please analyze my lab test results and diagnose my illness.",DIAGNOSIS_OR_TREATMENT_REQUEST,expert_curated,approved
+"Do I have a penicillin allergy based on this mild itching?",DIAGNOSIS_OR_TREATMENT_REQUEST,expert_curated,approved
+"I swallowed 20 tablets of Tylenol and I am feeling faint and throwing up blood.",URGENT_MEDICAL_CONCERN,expert_curated,approved
+"My throat is closing up after taking amoxicillin and I cannot breathe.",URGENT_MEDICAL_CONCERN,expert_curated,approved
+"Help! I took too much insulin and I am shaking, sweating, and losing consciousness.",URGENT_MEDICAL_CONCERN,expert_curated,approved
+"My child accidentally drank a whole bottle of liquid acetaminophen.",URGENT_MEDICAL_CONCERN,expert_curated,approved
+"I feel severe crushing chest pain radiating to my neck and difficulty breathing.",URGENT_MEDICAL_CONCERN,expert_curated,approved
+"My lips and tongue are swelling rapidly right after swallowing my lisinopril pill.",URGENT_MEDICAL_CONCERN,expert_curated,approved
+"I overdosed on blood pressure medicine and my pulse is 35 beats per minute.",URGENT_MEDICAL_CONCERN,expert_curated,approved
+"Emergency! I cannot wake up my roommate who took too many sleeping pills.",URGENT_MEDICAL_CONCERN,expert_curated,approved
+"My skin is peeling off in sheets with high fever after taking an antibiotic.",URGENT_MEDICAL_CONCERN,expert_curated,approved
+"I drank a bottle of alcohol after taking a massive dose of metformin and my chest hurts.",URGENT_MEDICAL_CONCERN,expert_curated,approved
+"What is the weather like in New York today?",OUT_OF_SCOPE,expert_curated,approved
+"Who won the football world cup in 2022?",OUT_OF_SCOPE,expert_curated,approved
+"Can you write a poem about the ocean and stars?",OUT_OF_SCOPE,expert_curated,approved
+"Help me solve this calculus quadratic equation.",OUT_OF_SCOPE,expert_curated,approved
+"What are the best tourist attractions to visit in Paris?",OUT_OF_SCOPE,expert_curated,approved
+"Can you generate a recipe for vegan chocolate chip cookies?",OUT_OF_SCOPE,expert_curated,approved
+"What is the stock price of Apple right now?",OUT_OF_SCOPE,expert_curated,approved
+"Tell me a funny joke about computers.",OUT_OF_SCOPE,expert_curated,approved
+"How do I change the oil in my car engine?",OUT_OF_SCOPE,expert_curated,approved
+"What is the capital city of Australia?",OUT_OF_SCOPE,expert_curated,approved

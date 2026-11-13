@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build artifacts
+dist/
+build/
+
+# Python virtual environment & cache
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and runtime state
+*.db
+*.sqlite
+*.sqlite3
+druginsight.db
+test_druginsight.db
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+
+# Generated artifacts & logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+artifacts/documents/*
+artifacts/reports/*
+!artifacts/documents/.gitkeep
+!artifacts/reports/.gitkeep
+!artifacts/models/.gitkeep
+
+# IDE & Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store

@@ -1,0 +1,81 @@
+{
+  "model_version": "safety-v1-logreg",
+  "algorithm": "TF-IDF + LogisticRegression",
+  "train_samples": 60,
+  "test_samples": 20,
+  "accuracy": 0.45,
+  "macro_f1": 0.4119047619047619,
+  "classification_report": {
+    "DIAGNOSIS_OR_TREATMENT_REQUEST": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "GENERAL_INFORMATION": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "OUT_OF_SCOPE": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "PERSONALIZED_DOSAGE_REQUEST": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1-score": 0.8571428571428571,
+      "support": 3.0
+    },
+    "PERSONALIZED_PRESCRIPTION_REQUEST": {
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.5714285714285714,
+      "support": 3.0
+    },
+    "PROFESSIONAL_RESEARCH": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "SIDE_EFFECT_INFORMATION": {
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.4,
+      "support": 3.0
+    },
+    "URGENT_MEDICAL_CONCERN": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 2.0
+    },
+    "accuracy": 0.45,
+    "macro avg": {
+      "precision": 0.4270833333333333,
+      "recall": 0.4375,
+      "f1-score": 0.4119047619047619,
+      "support": 20.0
+    },
+    "weighted avg": {
+      "precision": 0.4291666666666666,
+      "recall": 0.45,
+      "f1-score": 0.42095238095238086,
+      "support": 20.0
+    }
+  },
+  "classes": [
+    "DIAGNOSIS_OR_TREATMENT_REQUEST",
+    "GENERAL_INFORMATION",
+    "OUT_OF_SCOPE",
+    "PERSONALIZED_DOSAGE_REQUEST",
+    "PERSONALIZED_PRESCRIPTION_REQUEST",
+    "PROFESSIONAL_RESEARCH",
+    "SIDE_EFFECT_INFORMATION",
+    "URGENT_MEDICAL_CONCERN"
+  ]
+}
